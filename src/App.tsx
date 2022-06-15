@@ -1,9 +1,17 @@
 import Layout from './components/Layout';
 import ViewPatient from './components/ViewPatient';
 import ListPatients from './components/ListPatients';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Navigate,
+  useParams,
+} from 'react-router-dom';
 
 export function App(): JSX.Element {
+  const baseUrl = useParams();
+  console.log(baseUrl);
   return (
     <BrowserRouter>
       <Layout>

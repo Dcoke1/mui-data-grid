@@ -1,6 +1,6 @@
 {
   "name": "mui-data-grid",
-  "homepage": "https://github.com/Dcoke1/mui-data-grid.git",
+  "homepage": "https://dcoke1.github.io/mui-data-grid",
   "version": "0.0.1",
   "dependencies": {
     "@emotion/react": "^11.9.0",
