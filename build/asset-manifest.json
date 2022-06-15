@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Dcoke1/mui-data-grid.git/static/css/main.b9e50146.css",
-    "main.js": "/Dcoke1/mui-data-grid.git/static/js/main.47cf4cb3.js",
-    "static/media/logo-dark.svg": "/Dcoke1/mui-data-grid.git/static/media/logo-dark.e03969748f942dcadc09.svg",
-    "static/media/logo-light.svg": "/Dcoke1/mui-data-grid.git/static/media/logo-light.41ef01c4caf2b5a28e874ce44b24c499.svg",
-    "index.html": "/Dcoke1/mui-data-grid.git/index.html",
-    "main.b9e50146.css.map": "/Dcoke1/mui-data-grid.git/static/css/main.b9e50146.css.map",
-    "main.47cf4cb3.js.map": "/Dcoke1/mui-data-grid.git/static/js/main.47cf4cb3.js.map"
+    "main.css": "/mui-data-grid/static/css/main.61cc99db.css",
+    "main.js": "/mui-data-grid/static/js/main.81d4e3af.js",
+    "static/media/logo-dark.svg": "/mui-data-grid/static/media/logo-dark.e03969748f942dcadc09.svg",
+    "static/media/logo-light.svg": "/mui-data-grid/static/media/logo-light.41ef01c4caf2b5a28e874ce44b24c499.svg",
+    "index.html": "/mui-data-grid/index.html",
+    "main.61cc99db.css.map": "/mui-data-grid/static/css/main.61cc99db.css.map",
+    "main.81d4e3af.js.map": "/mui-data-grid/static/js/main.81d4e3af.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9e50146.css",
-    "static/js/main.47cf4cb3.js"
+    "static/css/main.61cc99db.css",
+    "static/js/main.81d4e3af.js"
   ]
 }
