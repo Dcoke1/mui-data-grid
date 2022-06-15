@@ -16,9 +16,9 @@ export function App(): JSX.Element {
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route path="/" element={<Navigate to="/patients" />} />
-          <Route path="/patients/:id" element={<ViewPatient />} />
-          <Route path="/patients" element={<ListPatients />} />
+          <Route path="/" element={<Navigate to="/mui-data-grid" />} />
+          <Route path="/mui-data-grid/:id" element={<ViewPatient />} />
+          <Route path="/mui-data-grid" element={<ListPatients />} />
         </Routes>
       </Layout>
     </BrowserRouter>

@@ -62,7 +62,7 @@ export default function PatientCard({
         </Typography>
       </CardContent>
       <CardActions>
-        <Link to={'/patients'}>
+        <Link to={'/'}>
           <Button variant="contained" size="large">
             Back to Patient List
           </Button>

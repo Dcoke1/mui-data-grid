@@ -13,7 +13,7 @@ const columns: Array<[]> | any = [
     field: 'id',
     headerName: 'ID',
     renderCell: (params: { id: number }) => (
-      <Link to={`/patients/${params.id}`}>
+      <Link to={`/mui-data-grid/${params.id}`}>
         <Button variant="contained" size="small">
           View
         </Button>
