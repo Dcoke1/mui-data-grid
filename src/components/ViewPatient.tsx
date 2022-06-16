@@ -5,6 +5,7 @@ import { Box } from '@mui/material';
 // Uncomment to use the mock api calls.
 import * as api from '../mocks/api';
 import PatientCard from './PatientCard';
+import Loading from './Loading';
 
 type PatientParams = {
   id: number | any;
@@ -14,13 +15,16 @@ const ViewPatient = (): ReactElement => {
   const { id } = useParams<PatientParams>();
   const [patient, setPatient] = React.useState(Object);
 
+  console.log(patient);
   React.useEffect(() => {
     api.getPatient(parseInt(id)).then((result) => setPatient(result));
   }, [id]);
 
   const { first_name, last_name, email, sex, active, created_at } = patient;
 
-  return (
+  return Object.keys(patient).length === 0 ? (
+    <Loading />
+  ) : (
     <Box>
       {created_at && (
         <PatientCard
